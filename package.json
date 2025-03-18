@@ -1,0 +1,40 @@
+{
+  "name": "wallet-new",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "vue-tsc",
+    "lint": "biome check .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@safe-global/protocol-kit": "4.1.0",
+    "@safe-global/relay-kit": "3.1.0",
+    "@tanstack/vue-query": ">=5.45.0",
+    "@wagmi/vue": "latest",
+    "axios": "^1.7.7",
+    "circomlibjs": "^0.1.7",
+    "pinia": "^2.2.6",
+    "pug": "^3.0.3",
+    "pug-loader": "^2.4.0",
+    "viem": "latest",
+    "vue": ">=3.4.21",
+    "vuetify": "^3.7.4"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.2.270",
+    "@types/axios": "^0.14.4",
+    "@types/circomlibjs": "^0.1.6",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "buffer": "^6.0.3",
+    "unplugin-icons": "^0.20.1",
+    "unplugin-vue-components": "^0.27.4",
+    "vite": "^5.2.11",
+    "vite-plugin-node-polyfills": "^0.22.0",
+    "vue-tsc": "^2.0.6",
+    "vue3-toastify": "^0.2.4"
+  }
+}
